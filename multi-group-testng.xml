@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Multi Group Suite" verbose="1">
+    <test name="Group Test One">
+        <groups>
+            <run>
+                <include name="group-one" />
+            </run>
+        </groups>
+        <classes>
+            <class name="test.groups.MultiGroup" />
+        </classes>
+    </test>
+    <test name="Group Test Two">
+        <groups>
+            <run>
+                <include name="group-two" />
+            </run>
+        </groups>
+        <classes>
+            <class name="test.groups.MultiGroup" />
+        </classes>
+    </test>
+</suite>

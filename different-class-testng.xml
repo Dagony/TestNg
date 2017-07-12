@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Different class test Suite" verbose="1">
+    <test name="Different Class Test">
+        <classes>
+            <class name="test.dataprovider.TestClass" />
+        </classes>
+    </test>
+</suite>

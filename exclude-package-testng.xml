@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Exclude Package Suite" verbose="1">
+    <test name="Exclude Package Test">
+        <packages>
+            <package name="test.*">
+                <exclude name="test.secondpackage" />
+            </package>
+        </packages>
+    </test>
+</suite>
