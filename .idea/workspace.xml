@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc6b638c-9e52-45f1-a324-35a21c9a04ae" name="Default" comment="Add regular expression dependency xml test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regexp-xml-dependency.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/depends/xml/RegularExpressionXmlTest.java" />
+    <list default="true" id="dc6b638c-9e52-45f1-a324-35a21c9a04ae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -882,7 +880,7 @@
       <workItem from="1499754912783" duration="595000" />
       <workItem from="1499844950562" duration="16928000" />
       <workItem from="1499865066967" duration="4089000" />
-      <workItem from="1499925380773" duration="2174000" />
+      <workItem from="1499925380773" duration="2181000" />
     </task>
     <task id="LOCAL-00001" summary="Added new tests">
       <created>1499867120623</created>
@@ -912,7 +910,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499927108201</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add regular expression dependency xml test">
+      <created>1499927559106</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1499927559106</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -948,7 +953,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23786000" />
+    <option name="totallyTimeSpent" value="23793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="1080" width="1922" height="1053" extended-state="6" />
