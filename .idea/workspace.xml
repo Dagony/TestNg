@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc6b638c-9e52-45f1-a324-35a21c9a04ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multigroup-xml-dependency.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/depends/xml/MultiGrpXmlDependency.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multigroup-xml-dependency.xml" afterPath="$PROJECT_DIR$/multigroup-xml-dependency.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-xml-dependency.xml" afterPath="$PROJECT_DIR$/simple-xml-dependency.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple-xml-dependency.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="simple-xml-dependency.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-xml-dependency.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multigroup-xml-dependency.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="multigroup-xml-dependency.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multigroup-xml-dependency.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -93,8 +93,8 @@
       <file leaf-file-name="multi-group-testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multi-group-testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="144">
+              <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -179,9 +179,9 @@
         <option value="$PROJECT_DIR$/src/test/java/test/depends/regularexp/RegularExpressionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/depends/xml/SimpleXMLDependency.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/simple-xml-dependency.xml" />
         <option value="$PROJECT_DIR$/src/test/java/test/depends/xml/MultiGrpXmlDependency.java" />
         <option value="$PROJECT_DIR$/multigroup-xml-dependency.xml" />
+        <option value="$PROJECT_DIR$/simple-xml-dependency.xml" />
       </list>
     </option>
   </component>
@@ -961,7 +961,7 @@
       <workItem from="1499754912783" duration="595000" />
       <workItem from="1499844950562" duration="16928000" />
       <workItem from="1499865066967" duration="4089000" />
-      <workItem from="1499925380773" duration="1498000" />
+      <workItem from="1499925380773" duration="1696000" />
     </task>
     <task id="LOCAL-00001" summary="Added new tests">
       <created>1499867120623</created>
@@ -977,7 +977,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499926556718</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Multigroup XML dependency test">
+      <created>1499926896032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1499926896032</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1013,7 +1020,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23110000" />
+    <option name="totallyTimeSpent" value="23308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="1080" width="1922" height="1053" extended-state="6" />
@@ -1054,7 +1061,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added new tests" />
     <MESSAGE value="Added simple XML dependency test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added simple XML dependency test" />
+    <MESSAGE value="Added Multigroup XML dependency test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Multigroup XML dependency test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1419,26 +1427,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-xml-dependency.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exclude-group-testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="58" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi-group-testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1458,10 +1450,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/multi-group-testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/multigroup-xml-dependency.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-xml-dependency.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding />
         </state>
       </provider>
