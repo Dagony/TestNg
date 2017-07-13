@@ -2,7 +2,7 @@ package test.depends.xml;
 
 import org.testng.annotations.Test;
 
-public class SimpleXMLDependency {
+public class SimpleXmlDependency {
 
     @Test(groups={"dependent-group"})
     public void groupTestOne() {

@@ -9,9 +9,8 @@
                 <include name="dependent-group" />
             </run>
         </groups>
-
         <classes>
-            <class name="test.depends.xml.SimpleXMLDependency" />
+            <class name="test.depends.xml.SimpleXmlDependency" />
         </classes>
     </test>
 </suite>
