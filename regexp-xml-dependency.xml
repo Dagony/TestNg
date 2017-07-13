@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regexpxmldependency Suite" verbose="1">
+    <test name="Regexp xml dependency Test">
+        <groups>
+            <run>
+                <include name="test" />
+            </run>
+            <dependencies>
+                <group name="test" depends-on="starts-with.*" />
+            </dependencies>
+        </groups>
+
+        <classes>
+            <class name="test.depends.xml.RegularExpressionXmlTest" />
+        </classes>
+    </test>
+</suite>
